@@ -14,10 +14,10 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
 @EnableWebSecurity 
-public class SecurityConfig {
+// public class SecurityConfig {
 
-    @Autowired
-    AccountService accountService;
+//    @Autowired
+//    AccountService accountService;
 
     @Bean
     public static PasswordEncoder passwordEncoder() {
