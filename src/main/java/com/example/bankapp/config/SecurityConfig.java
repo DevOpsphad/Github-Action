@@ -52,9 +52,9 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
         return http.build();
     }
 
-    @Autowired
-    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(accountService).passwordEncoder(passwordEncoder());
+ //   @Autowired
+  //  public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+  //      auth.userDetailsService(accountService).passwordEncoder(passwordEncoder());
 
-    }
+  //  }
 }
