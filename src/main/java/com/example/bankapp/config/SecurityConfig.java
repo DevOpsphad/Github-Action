@@ -1,6 +1,6 @@
 package com.example.bankapp.config;
 
-import com.example.bankapp.service.AccountService;
+// import com.example.bankapp.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
