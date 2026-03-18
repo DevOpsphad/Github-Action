@@ -49,7 +49,7 @@ jobs:
     - name: Gitleaks Scanning of code  
       run: gitleaks detect source . -r gitleaks-report.json -f json
   test:
-    runs-on: runner
+    runs-on: self-hosted
     needs: security-check
     steps:
     - uses: actions/checkout@v4
